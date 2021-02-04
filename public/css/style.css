@@ -1,0 +1,92 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+body{
+    background-color: rgb(228, 212, 192);
+  display: flex;
+  flex-wrap: wrap-reverse;
+
+  justify-content: center;
+}
+
+.chat-background{
+    height:450px;
+    box-shadow:10px 10px 20px  gray;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+.chat-background>h1{
+    color: brown;
+    padding: 20px 20px;
+}
+.container{
+    word-wrap: break-word;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.chat-container{
+    text-align: left;
+    padding: 10px 20px;
+}
+
+.user{
+    font-weight: bold;
+    color:rgb(3, 86, 97);
+}
+.msg{
+    color: rgba(9, 22, 65, 0.959);
+}
+
+.chat-bubble
+{  
+    box-shadow: 5px  5px 8px  rgba(87, 141, 212, 0.527);
+    background-color: rgba(149, 181, 224, 0.479);    
+    padding:7px 20px;
+    border-radius: 20px;
+    float: left;
+}
+
+
+form{
+    display:flex;
+   justify-content: space-between;
+
+}
+.send-tab{
+    box-shadow: 5px  5px 8px grey;
+    outline:none;  
+    text-align:left;
+    padding: 10px 10px;
+    width: 90%;
+    border-radius:20px;
+border: 0px solid white;
+}
+
+.send-tab:active,.send-tab:hover{
+    margin: 2px 5px;
+}
+
+.sendBtn{
+    outline:none;  
+    background-color:rgba(21, 139, 218, 0.788);
+    color: wheat;
+    font-weight: bold;
+    box-shadow: 2px 2px 1px  rgba(21, 139, 218, 0.788);
+    border: 0px solid white;
+    padding: 2px 5%;
+    border-radius:20px;
+}
+.sendBtn:active,.sendBtn:hover{
+margin: 2px 5px;
+}

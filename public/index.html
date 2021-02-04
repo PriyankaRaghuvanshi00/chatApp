@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chatApp</title>
+    <script defer src="/socket.io/socket.io.js"></script>
+    <script defer type=text/javascript src="./app.js" ></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <template>
+      <div class="chat-container">
+        <div class="chat-bubble">
+          <p class="user"></p>
+          <p class="msg"></p>
+        </div>
+      </div>
+    </template>
+    <div class="chat-background">
+      <h1>chatApp</h1>
+      <div class="container">
+       
+      </div>
+      <form>
+        <input type="text" id="msg" class="send-tab" placeholder="send a message" />
+        <input type="submit" value="send" class="sendBtn" />
+      </form>
+    </div>
+  </body>
+ 
+</html>
